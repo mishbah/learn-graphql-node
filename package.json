@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src"
+  },
   "dependencies": {
     "graphql-yoga": "^1.14.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
   }
 }
